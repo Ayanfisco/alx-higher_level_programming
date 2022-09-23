@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-if __name == '__main__':
+if __name__ == '__main__':
     import sys
 
     arg = sys.argv
     length = len(arg) - 1
 
     if length == 0:
-        print("0 arguments")
+        print("0 arguments.")
     elif length == 1:
         print("{} argument:".format(length))
         print("{}: {}".format(length, arg[length]))
